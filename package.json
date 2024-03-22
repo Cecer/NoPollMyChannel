@@ -1,0 +1,11 @@
+{
+  "name": "nopollmychannel",
+  "version": "1.0.0",
+  "description": "Remove all Discord polls - Requires at least Node 16",
+  "main": "index.js",
+  "author": "Cecer",
+  "license": "WTFPL",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
