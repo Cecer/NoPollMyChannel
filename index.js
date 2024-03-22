@@ -13,7 +13,7 @@ class CustomClient extends Client {
             ]
         });
 
-        // Process the raw message creatoin event on the web socket.
+        // Process the raw message creation event on the web socket.
         this.ws.on(GatewayDispatchEvents.MessageCreate, data => {
             if (data.poll) { // If it has a truthy poll field, it's a poll.
                 console.log(`Deleting poll ${data.id} by ${data.author.id} in ${data.channel_id}`);
